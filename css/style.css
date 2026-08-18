@@ -1,6 +1,11 @@
-.selected {
-    background-color: #007bff;
-    color: white;
-    border-color: #007bff;
+/* Highlights the button the user has clicked for each question */
+.answer-btn.selected {
+    background-color: #ffc107;
+    color: #000;
+    border-color: #ffc107;
+    font-weight: bold;
 }
-  
+
+.question-block {
+    background-color: #f8f9fa;
+}
