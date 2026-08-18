@@ -1,94 +1,140 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>What Dessert Are You? - Personality Quiz</title>
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
-    <link rel="stylesheet" href="style.css">
+    <link rel="icon" type="image/x-icon" href="/img/ideas.png">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.5/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-SgOJa3DmI69IUzQ2PVdRZhwQ+dy64/BUtbMJw1MZ8t5HZApcHrRKUc4W0kG879m7" crossorigin="anonymous">
+    <link rel="stylesheet" href="./css/style.css">
 </head>
 <body>
+    <h1 class="text-center mt-4">What Dessert Are You?</h1>
+    <p class="text-center text-muted">Answer 5 questions to find your matching sweet treat.</p>
 
-    <header class="text-center py-4 bg-dark text-white">
-        <h1>What Dessert Are You?</h1>
-        <p class="lead">Answer 5 questions to find out which sweet treat matches your personality.</p>
-    </header>
-
-    <main class="container my-5">
-
-        <!-- Start quiz element -->
-        <div class="question-block card mb-4 p-4" data-question="1">
-            <h2 class="h5">1. It's a free Saturday afternoon. What are you doing?</h2>
-            <div class="d-flex flex-wrap gap-2 mt-3">
-                <button class="btn btn-outline-primary answer-btn" data-answer="1">Baking something cozy at home</button>
-                <button class="btn btn-outline-primary answer-btn" data-answer="2">Trying a new ice cream shop with friends</button>
-                <button class="btn btn-outline-primary answer-btn" data-answer="3">Hosting a dinner party</button>
-                <button class="btn btn-outline-primary answer-btn" data-answer="4">Going for a walk in nature</button>
-            </div>
+    <!-- Start quiz element -->
+    <div class="container d-flex justify-content-center" id="question-1">
+      <div class="card my-4 p-4 question-block" style="width: 75%;">
+        <h4 class="mb-3">1. It's a free Saturday afternoon. What are you doing?</h4>
+        <div class="row g-2">
+          <div class="col-6">
+            <button class="btn btn-outline-primary w-100 answer-btn" data-answer="A">Baking something cozy at home</button>
+          </div>
+          <div class="col-6">
+            <button class="btn btn-outline-primary w-100 answer-btn" data-answer="B">Trying a new ice cream shop with friends</button>
+          </div>
+          <div class="col-6">
+            <button class="btn btn-outline-primary w-100 answer-btn" data-answer="C">Hosting a dinner party</button>
+          </div>
+          <div class="col-6">
+            <button class="btn btn-outline-primary w-100 answer-btn" data-answer="D">Going for a walk in nature</button>
+          </div>
         </div>
-        <!-- End quiz element -->
+      </div>
+    </div>
+    <!-- End quiz element -->
 
-        <!-- Start quiz element -->
-        <div class="question-block card mb-4 p-4" data-question="2">
-            <h2 class="h5">2. Pick a color palette:</h2>
-            <div class="d-flex flex-wrap gap-2 mt-3">
-                <button class="btn btn-outline-primary answer-btn" data-answer="1">Soft pastels</button>
-                <button class="btn btn-outline-primary answer-btn" data-answer="2">Bright and colorful</button>
-                <button class="btn btn-outline-primary answer-btn" data-answer="3">Rich and deep tones</button>
-                <button class="btn btn-outline-primary answer-btn" data-answer="4">Natural greens and browns</button>
-            </div>
+    <!-- Start quiz element -->
+    <div class="container d-flex justify-content-center" id="question-2">
+      <div class="card my-4 p-4 question-block" style="width: 75%;">
+        <h4 class="mb-3">2. Pick a color palette:</h4>
+        <div class="row g-2">
+          <div class="col-6">
+            <button class="btn btn-outline-primary w-100 answer-btn" data-answer="A">Soft pastels</button>
+          </div>
+          <div class="col-6">
+            <button class="btn btn-outline-primary w-100 answer-btn" data-answer="B">Bright and colorful</button>
+          </div>
+          <div class="col-6">
+            <button class="btn btn-outline-primary w-100 answer-btn" data-answer="C">Rich and deep tones</button>
+          </div>
+          <div class="col-6">
+            <button class="btn btn-outline-primary w-100 answer-btn" data-answer="D">Natural greens and browns</button>
+          </div>
         </div>
-        <!-- End quiz element -->
+      </div>
+    </div>
+    <!-- End quiz element -->
 
-        <!-- Start quiz element -->
-        <div class="question-block card mb-4 p-4" data-question="3">
-            <h2 class="h5">3. What's your go-to comfort activity?</h2>
-            <div class="d-flex flex-wrap gap-2 mt-3">
-                <button class="btn btn-outline-primary answer-btn" data-answer="1">Curling up with a warm drink</button>
-                <button class="btn btn-outline-primary answer-btn" data-answer="2">Blasting music and dancing around</button>
-                <button class="btn btn-outline-primary answer-btn" data-answer="3">Watching a classic movie</button>
-                <button class="btn btn-outline-primary answer-btn" data-answer="4">Gardening or being outside</button>
-            </div>
+    <!-- Start quiz element -->
+    <div class="container d-flex justify-content-center" id="question-3">
+      <div class="card my-4 p-4 question-block" style="width: 75%;">
+        <h4 class="mb-3">3. What's your go-to comfort activity?</h4>
+        <div class="row g-2">
+          <div class="col-6">
+            <button class="btn btn-outline-primary w-100 answer-btn" data-answer="A">Curling up with a warm drink</button>
+          </div>
+          <div class="col-6">
+            <button class="btn btn-outline-primary w-100 answer-btn" data-answer="B">Blasting music and dancing around</button>
+          </div>
+          <div class="col-6">
+            <button class="btn btn-outline-primary w-100 answer-btn" data-answer="C">Watching a classic movie</button>
+          </div>
+          <div class="col-6">
+            <button class="btn btn-outline-primary w-100 answer-btn" data-answer="D">Gardening or being outside</button>
+          </div>
         </div>
-        <!-- End quiz element -->
+      </div>
+    </div>
+    <!-- End quiz element -->
 
-        <!-- Start quiz element -->
-        <div class="question-block card mb-4 p-4" data-question="4">
-            <h2 class="h5">4. Choose a vacation spot:</h2>
-            <div class="d-flex flex-wrap gap-2 mt-3">
-                <button class="btn btn-outline-primary answer-btn" data-answer="1">A cozy cabin in the mountains</button>
-                <button class="btn btn-outline-primary answer-btn" data-answer="2">A beach with a lively boardwalk</button>
-                <button class="btn btn-outline-primary answer-btn" data-answer="3">A historic European city</button>
-                <button class="btn btn-outline-primary answer-btn" data-answer="4">A quiet countryside orchard</button>
-            </div>
+    <!-- Start quiz element -->
+    <div class="container d-flex justify-content-center" id="question-4">
+      <div class="card my-4 p-4 question-block" style="width: 75%;">
+        <h4 class="mb-3">4. Choose a vacation spot:</h4>
+        <div class="row g-2">
+          <div class="col-6">
+            <button class="btn btn-outline-primary w-100 answer-btn" data-answer="A">A cozy cabin in the mountains</button>
+          </div>
+          <div class="col-6">
+            <button class="btn btn-outline-primary w-100 answer-btn" data-answer="B">A beach with a lively boardwalk</button>
+          </div>
+          <div class="col-6">
+            <button class="btn btn-outline-primary w-100 answer-btn" data-answer="C">A historic European city</button>
+          </div>
+          <div class="col-6">
+            <button class="btn btn-outline-primary w-100 answer-btn" data-answer="D">A quiet countryside orchard</button>
+          </div>
         </div>
-        <!-- End quiz element -->
+      </div>
+    </div>
+    <!-- End quiz element -->
 
-        <!-- Start quiz element -->
-        <div class="question-block card mb-4 p-4" data-question="5">
-            <h2 class="h5">5. Pick a word that describes you best:</h2>
-            <div class="d-flex flex-wrap gap-2 mt-3">
-                <button class="btn btn-outline-primary answer-btn" data-answer="1">Warm</button>
-                <button class="btn btn-outline-primary answer-btn" data-answer="2">Fun</button>
-                <button class="btn btn-outline-primary answer-btn" data-answer="3">Elegant</button>
-                <button class="btn btn-outline-primary answer-btn" data-answer="4">Down-to-earth</button>
-            </div>
+    <!-- Start quiz element -->
+    <div class="container d-flex justify-content-center" id="question-5">
+      <div class="card my-4 p-4 question-block" style="width: 75%;">
+        <h4 class="mb-3">5. Pick a word that describes you best:</h4>
+        <div class="row g-2">
+          <div class="col-6">
+            <button class="btn btn-outline-primary w-100 answer-btn" data-answer="A">Warm</button>
+          </div>
+          <div class="col-6">
+            <button class="btn btn-outline-primary w-100 answer-btn" data-answer="B">Fun</button>
+          </div>
+          <div class="col-6">
+            <button class="btn btn-outline-primary w-100 answer-btn" data-answer="C">Elegant</button>
+          </div>
+          <div class="col-6">
+            <button class="btn btn-outline-primary w-100 answer-btn" data-answer="D">Down-to-earth</button>
+          </div>
         </div>
-        <!-- End quiz element -->
+      </div>
+    </div>
+    <!-- End quiz element -->
 
-        <div class="text-center my-4">
-            <button id="show-results-btn" class="btn btn-warning btn-lg">Show Results</button>
-        </div>
+    <div class="container d-flex justify-content-center">
+      <button id="show-result" class="btn btn-success my-4">Show Results</button>
+    </div>
 
-        <div id="result-container" class="text-center h4 mt-4">
-        </div>
+    <!-- Output the result here -->
+    <div class="container d-flex justify-content-center">
+      <div id="result-container" class="card p-4 mb-4" style="width: 75%; display: none;">
+        <h3>Your Result:</h3>
+        <p id="result-text"></p>
+      </div>
+    </div>
 
-    </main>
-
-    <footer class="text-center py-3 bg-dark text-white">
-        <p class="mb-0">Made for Assignment #8 — Personality Quiz</p>
-    </footer>
-
-    <script src="script.js"></script>
+    <!-- Connect to your script file here -->
+    <script src="./js/script.js"></script>
 </body>
 </html>
